@@ -9,6 +9,7 @@ MDBNavbarToggler,
 MDBNavbarLink,
 MDBContainer,
 MDBIcon } from 'mdb-react-ui-kit';
+import Image from "./images/apiary.jpg"
 
 export default function App() {
   return (
@@ -46,29 +47,29 @@ export default function App() {
       <div
         id='intro-example'
         className='p-5 text-center bg-image'
-        style={{ backgroundImage: "url('https://mdbcdn.b-cdn.net/img/new/slides/041.jpg')" }}
+        style={{ backgroundImage: `url(${Image})` , backgroundSize:'auto' }}
       >
         <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)' }}>
           <div className='d-flex justify-content-center align-items-center h-100'>
             <div className='text-white'>
-              <h1 className='mb-3'>Learn Bootstrap 5 with MDB</h1>
-              <h5 className='mb-4'>Best &amp; free guide of responsive web design</h5>
+              <h1 className='mb-3'>ApiaryBee Best Apiary App</h1>
+              <h5 className='mb-4'>Best &amp; Functional App for Apiary</h5>
               <a
                 className='btn btn-outline-light btn-lg m-2'
-                href='https://www.youtube.com/watch?v=c9B4TPnak1A'
+                href='#'
                 role='button'
                 rel='nofollow'
                 target='_blank'
               >
-                Start tutorial
+                Start ApiaryBee tutorial 
               </a>
               <a
                 className='btn btn-outline-light btn-lg m-2'
-                href='https://mdbootstrap.com/docs/standard/'
+                href='#'
                 target='_blank'
                 role='button'
               >
-                Download MDB UI KIT
+                Download ApiaryBee
               </a>
             </div>
           </div>
