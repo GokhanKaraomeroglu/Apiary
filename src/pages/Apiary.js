@@ -8,7 +8,10 @@ function Apiary() {
       <NavBar/>
       {/* <Header/> */}
 			<p>This is Apiary Page</p>
-      
+      <button type="button" class="btn btn-warning m-5" >Apiary Form</button>
+      <button type="button" class="btn btn-warning m-5">Apiary Search</button>
+      <button type="button" class="btn btn-warning m-5">Apiary Map</button>
+
     </div>
   );
 }
