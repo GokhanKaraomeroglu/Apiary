@@ -8,6 +8,7 @@ import About from './pages/About';
 import Apiary from './pages/Apiary';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
+import ApiaryForm from './pages/ApiaryForm';
 
 
 
@@ -23,6 +24,7 @@ function App() {
     <Route path = '/apiary' component = {Apiary} />
     <Route path = '/services' component = {Services} />
     <Route path = '/contact' component = {Contact} />
+    <Route path = '/apiaryform' component = {ApiaryForm} />
     
     </Switch>
     </Router>
