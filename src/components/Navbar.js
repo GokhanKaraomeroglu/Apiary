@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import {Link} from 'react-router-dom'
 
 
 function NavBar() {
     return(
         <div>
- <nav className="navbar navbar-expand-lg navbar-light bg-light">
+ <nav className="navbar navbar-expand-lg navbar-ligth bg-warning">
 		<div className="container-fluid">
 		  <a className="navbar-brand text-danger" href="#">ApiaryBee</a>
 		  <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,11 +13,21 @@ function NavBar() {
 		  </button>
 		  <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
 		    <div className="navbar-nav ms-auto">
-		      <a className="nav-link active" aria-current="page" href="#">Home</a>
-		      <a className="nav-link"  href="#">About Us</a>
-		      <a className="nav-link" href="#">Services</a>
-		      <a className="nav-link" href="#">Support</a>
-		      <a className="nav-link" href="#">Contact</a>
+				<li className="nav-link" aria-current="page">
+				<Link to="/">Home</Link>
+				</li>
+				<li className="nav-link" aria-current="page">
+				<Link to="/about">About Us</Link>
+				</li>
+				<li className="nav-link" aria-current="page">
+				<Link to="/apiary">Apiary</Link>
+				</li>
+				<li className="nav-link" aria-current="page">
+				<Link to="/services">Services</Link>
+				</li>
+				<li className="nav-link" aria-current="page">
+				<Link to="/contact">Contact</Link>
+				</li>
 		    </div>
 		  </div>
 		</div>

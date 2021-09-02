@@ -1,15 +1,31 @@
 
 import './App.css';
-import Header from './components/Header';
-import NavBar from './components/Navbar';
+import NavBar from './components/Navbar'
+import Header from './components/Header'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import Home from './pages/Home';
+import About from './pages/About';
+import Apiary from './pages/Apiary';
+import Services from './pages/Services';
+import Contact from './pages/Contact';
+
 
 
 function App() { 
   return (
+    <Router basename= '/ApiaryBee'>
     <div className="App">
-      <NavBar/>
-      <Header/>
+
     </div>
+    <Switch>
+    <Route exact path = '/' component = {Home} />
+    <Route path = '/about' component = {About} />
+    <Route path = '/apiary' component = {Apiary} />
+    <Route path = '/services' component = {Services} />
+    <Route path = '/contact' component = {Contact} />
+    
+    </Switch>
+    </Router>
   );
 }
 
