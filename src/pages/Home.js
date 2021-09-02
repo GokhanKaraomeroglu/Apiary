@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import NavBar from '../components/Navbar';
-import Image2 from '../images/apiary2.jpg';
 import Image from '../images/apiary.jpg';
+import Image2 from '../images/apiary2.jpg';
 
 
 function Home() { 
