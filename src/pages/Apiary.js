@@ -8,6 +8,7 @@ function Apiary() {
       <NavBar/>
       {/* <Header/> */}
 			<p>This is Apiary Page</p>
+      
     </div>
   );
 }
