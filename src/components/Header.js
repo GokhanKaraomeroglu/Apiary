@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from '../images/apiary2.jpg'
+import Image2 from '../images/apiary.jpg'
 
 export default function Header() {
 	return (
@@ -31,10 +32,10 @@ export default function Header() {
 					<img src={Image} className="d-block w-100 h-50" alt="..."/>
 				</div>
 				<div className="carousel-item">
-						<img src={Image} className="d-block w-100" alt="..."/>
+						<img src={Image2} className="d-block w-100 h-50" alt="..."/>
 				</div>
 				<div className="carousel-item">
-							<img src={Image} className="d-block w-100" alt="..."/>
+							<img src={Image} className="d-block w-100 h-50" alt="..."/>
 				</div>
 			</div>
 						<button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

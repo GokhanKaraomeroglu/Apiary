@@ -6,7 +6,8 @@ function Home() {
   return (
     <div className="App">
       <NavBar/>
-      <Header/>
+      {/* <Header/> */}
+			<p>This is Home Page</p>
     </div>
   );
 }
