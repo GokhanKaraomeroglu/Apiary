@@ -19,9 +19,9 @@ function Apiary() {
       <button type="button" class="btn btn-warning m-5">Apiary Search</button>
       <button type="button" class="btn btn-warning m-5">Apiary Map</button>
      
-      <div class="row m-5" >
+      <div class="row m-2" >
 
-        <div class="card" style={{width: 18 + "rem"}}>
+        <div class="card m-2" style={{width: 18 + "rem"}}>
           <img src={Image}class="card-img-top bg-warning" alt="..."/>
             <div class="card-body">
               <h5 class="card-title">Apiary-1</h5>
@@ -30,7 +30,7 @@ function Apiary() {
             </div>
         </div>
          
-          <div class="card" style={{width: 18 + "rem"}}>
+          <div class="card m-2" style={{width: 18 + "rem"}}>
             <img src={Image} class="card-img-top bg-light" alt="..."/>
               <div class="card-body">
                 <h5 class="card-title">Apiary-2</h5>
@@ -38,7 +38,7 @@ function Apiary() {
                 <a href="#" class="btn btn-outline-warning text-dark">Go To Apiary-2</a>
               </div>
           </div>
-          <div class="card" style={{width: 18 + "rem"}}>
+          <div class="card m-2" style={{width: 18 + "rem"}}>
             <img src={Image} class="card-img-top bg-danger" alt="..."/>
               <div class="card-body">
                 <h5 class="card-title">Apiary-3</h5>
@@ -46,7 +46,7 @@ function Apiary() {
                 <a href="#" class="btn btn-danger">Go To Apiary-3</a>
               </div>
           </div>
-          <div class="card" style={{width: 18 + "rem"}}>
+          <div class="card m-2" style={{width: 18 + "rem"}}>
             <img src={Image} class="card-img-top bg-warning" alt="..."/>
               <div class="card-body">
                 <h5 class="card-title">Apiary-4</h5>
